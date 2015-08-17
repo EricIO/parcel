@@ -1,10 +1,12 @@
 # Parcel
 
+**This software is currently a work in proccess, like I haven't done any coding yet. You have been warned**
+
 This is an experiment to create a cargo (from the Rust programming language) like program for python.
 It's currently in the early stages of experimentation and does not probably work as intended at all.
 
 
-# Feature Ideas
+## Feature Ideas
 The program is here to help with the creation, packaging and distribution of python software. I would like it to be able to do some of the below features.
 
 	`parcel new <name>`
