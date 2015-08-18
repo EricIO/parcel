@@ -13,6 +13,10 @@ The program is here to help with the creation, packaging and distribution of pyt
 		This should simply create a directory named <name>, create a repo in that directory (leaning towards git as standard)
 		and instanciate some of the standard files that are needed (license etc). The directory structure I'm leaning towards
 		is the one I use the most (if you don't think that is a good one I'm always willing to change my mind): http://www.kennethreitz.org/essays/repository-structure-and-python.
+
+		Switches:
+			--version-control, -vcs <scm>: Use the specified version control system. Use -vcs=none to not initialize a repository.
+			--version-control-list: List the supported version control systems and exit.
 	
 	`parcel test`
 		Somewhat selfexplanatory but this will run all the tests in the repo and report as usual failures and passed tests.
