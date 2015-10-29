@@ -17,7 +17,7 @@ The program is here to help with the creation, packaging and distribution of pyt
 		Switches:
 			--version-control, -vcs <scm>: Use the specified version control system. Use -vcs=none to not initialize a repository.
 			--version-control-list: List the supported version control systems and exit.
-	
+
 	`parcel test`
 		Somewhat selfexplanatory but this will run all the tests in the repo and report as usual failures and passed tests.
 	`parcel build`
@@ -25,5 +25,5 @@ The program is here to help with the creation, packaging and distribution of pyt
 		with python packaging to have a good opinion on what to do here. Need more research and / or suggestions.
 	`parcel install`
 		Installs the software on the machine (should work as pip)
-	`parcel distribute`
-		This should distribute the program to pypi, similar to twine upload. Again need more research to make a good decision on what to do.
+	`parcel package`
+		This should distribute the program to pypi, similar to twine upload. Would be nice if we could support other package repos (like private ones) and not just PyPi. Again need more research to make a good decision on what to do.
