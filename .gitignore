@@ -1,1 +1,4 @@
 .#*
+parcel/__pycache__/
+parcel.egg-info/
+venv/
