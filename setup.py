@@ -10,6 +10,11 @@ setup(
     license      = parcel.__license__,
     summary      = parcel.__summary__,
 
+    install_requires = [
+        'Click',
+        'pytoml'
+    ],
+
     entry_points = {
         'console_scripts' : [
             'parcel = parcel.parcel:cli'

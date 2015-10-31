@@ -19,7 +19,7 @@ __all__ = (
 
 __title__     = "parcel"
 __summary__   = "parcel is a tool for handling python projects"
-__version__   = "0.1.0"
+__version__   = "0.1.1"
 __author__    = "Eric Skoglund"
 __email__     = "eric@pagefault.se"
 __license__   = "GNU General Public License version 3"
